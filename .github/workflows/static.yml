@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>7 Meses de Amor!</title>
+	<style>
+		body {
+			background-color: black;
+			background-image: linear-gradient(to bottom, pink 50%, black 50%);
+			color: hotpink;
+			font-family: Arial, sans-serif;
+		}
+		h1 {
+			text-align: center;
+			font-size: 48px;
+			margin-top: 100px;
+			text-shadow: 2px 2px 4px hotpink;
+		}
+		p {
+			text-align: center;
+			font-size: 36px;
+			margin-top: 50px;
+			text-shadow: 2px 2px 4px hotpink;
+		}
+		#hearts {
+			text-align: center;
+			margin-top: 50px;
+		}
+		.heart {
+			color: hotpink;
+			font-size: 60px;
+			margin-right: 10px;
+			animation: beat 2s infinite alternate;
+		}
+		@keyframes beat {
+			from { transform: scale(1); }
+			to { transform: scale(1.2); }
+		}
+	</style>
+</head>
+<body>
+	<h1>7 Meses de Amor!</h1>
+	<p>Eu te amo mais a cada dia, minha gatinha maravilhosa!</p>
+	<div id="hearts">
+		<span class="heart">&hearts;</span>
+		<span class="heart">&hearts;</span>
+		<span class="heart">&hearts;</span>
+	</div>
+</body>
+</html>
